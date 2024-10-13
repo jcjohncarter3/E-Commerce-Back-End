@@ -32,7 +32,6 @@ Product.init(
 
     stock: {
       type: DataTypes.INTEGER,
-      primaryKey: true,
       allowNull: false,
       validate: {
         isNumeric: true,
